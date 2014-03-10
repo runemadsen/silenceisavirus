@@ -1,0 +1,110 @@
+.container_8 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+}
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8 {
+  display:inline;
+  float: left;
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8 {
+  position:relative;
+}
+
+.alpha {
+  margin-left: 0;
+}
+
+.omega {
+  margin-right: 0;
+}
+
+.container_8 .grid_1 {
+  width:60px;
+}
+
+.container_8 .grid_2 {
+  width:150px;
+}
+
+.container_8 .grid_3 {
+  width:240px;
+}
+
+.container_8 .grid_4 {
+  width:330px;
+}
+
+.container_8 .grid_5 {
+  width:420px;
+}
+
+.container_8 .grid_6 {
+  width:510px;
+}
+
+.container_8 .grid_7 {
+  width:600px;
+}
+
+.container_8 .grid_8 {
+  width:690px;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+  zoom: 1;
+}

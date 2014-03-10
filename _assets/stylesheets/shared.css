@@ -1,0 +1,129 @@
+body,html {
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  background-color: #1f1d1d;
+  color: #FFF;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+/* Fonts
+-------------------------------------------- */
+
+h2 {
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.album h3 {
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted #403f3f;
+  color: #FFF;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a:hover {
+  color: #80bc29;
+}
+
+.grey {
+  color: #9b9b9b;
+}
+
+/* Buttons
+-------------------------------------------- */
+
+.btn {
+  display: inline-block;
+  border-bottom: 1px dotted #403f3f;
+  border-top: 1px dotted #403f3f;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  padding: 7px 0px;
+  margin-bottom: 20px;
+}
+
+.btn.large {
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+/* Header
+-------------------------------------------- */
+
+#header {
+  margin-bottom: 60px;
+}
+
+#header a {
+  border: none;
+}
+
+/* Albums
+-------------------------------------------- */
+
+#albums {
+  margin-bottom: 20px;
+}
+
+.album {
+  margin-bottom: 60px;
+}
+
+.album-info {
+  margin-top: 15px;
+}
+
+img.cover {
+  border: 1px solid #323030;
+}
+
+/* Photos
+-------------------------------------------- */
+
+#photos {
+  margin-bottom: 40px;
+}
+
+#photos .photo {
+  margin-bottom: 30px;
+}
+
+#photos .photo a {
+  border-bottom: none;
+}
+
+/* Social
+-------------------------------------------- */
+
+#social h2 {
+  margin-bottom: 20px;
+}
+
+/* Fonts
+-------------------------------------------- */
+
+#download a.download-link {
+  margin-top: 20px;
+}
